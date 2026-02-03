@@ -13,21 +13,21 @@ A web-based Rock Paper Scissors game built using HTML, CSS, and JavaScript. The 
 
 🛠️ Technologies Used
 
-Technology	      Purpose
-HTML	            Structure
-CSS              	Styling
-JavaScript	      Game Logic
+Technology	      Purpose<br>
+HTML	            Structure<br>
+CSS              	Styling<br>
+JavaScript	      Game Logic<br>
 
 📂 Project Structure
 
 Rock-Paper-Scissors/
 │
-├── index.html       # Main HTML file
-├── style.css        # Styling file
-├── app.js           # JavaScript logic
-├── rock.webp        # Rock image
-├── paper.webp       # Paper image
-└── scissors.webp    # Scissors image
+├── index.html       # Main HTML file<br>
+├── style.css        # Styling file<br>
+├── app.js           # JavaScript logic<br>
+├── rock.webp        # Rock image<br>
+├── paper.webp       # Paper image<br>
+└── scissors.webp    # Scissors image<br>
 
 ▶️ How to Run the Game
 
@@ -99,10 +99,10 @@ You can enhance this project by adding:
 
 👨‍💻 Author
 
-Name: Shivam Kumar
-Project Type: Beginner Web Project
+Name: Shivam Kumar<br>
+Project Type: Beginner Web Project<br>
 Purpose: Learning JavaScript & DOM
 
 📜 License
-
+<br>
 This project is free to use for learning and educational purposes.
