@@ -1,2 +1,108 @@
-# rps-browser-game
-This web-based Rock Paper Scissors game is built using HTML, CSS, and JavaScript. It allows users to play against the computer with real-time score updates and instant results. The project demonstrates DOM manipulation, event handling, and basic game logic in a simple and interactive way.
+🪨✂️📄 Rock Paper Scissors Game
+
+A web-based Rock Paper Scissors game built using HTML, CSS, and JavaScript. The player plays against the computer, and the winner is decided based on standard game rules.It allows users to play against the computer with real-time score updates and instant results. The project demonstrates DOM manipulation, event handling, and basic game logic in a simple and interactive way.
+
+📌 Features
+
+> Click-based gameplay
+> Random computer moves
+> Live score tracking
+> Win / Lose / Draw messages
+> Interactive UI
+> Responsive hover effects
+
+🛠️ Technologies Used
+
+Technology	      Purpose
+HTML	            Structure
+CSS              	Styling
+JavaScript	      Game Logic
+
+📂 Project Structure
+
+Rock-Paper-Scissors/
+│
+├── index.html       # Main HTML file
+├── style.css        # Styling file
+├── app.js           # JavaScript logic
+├── rock.webp        # Rock image
+├── paper.webp       # Paper image
+└── scissors.webp    # Scissors image
+
+▶️ How to Run the Game
+
+1. Download or clone the project.
+2. Open the folder.
+3. Double-click on index.html.
+4. The game will open in your browser.
+5. Click on Rock, Paper, or Scissors to play.
+
+*No internet connection required.*
+
+🎮 How to Play
+
+1. Choose any option:
+ > Rock
+ > Paper
+ > Scissors
+2. The computer will choose randomly.
+3. Result is displayed:
+ > 🟢 Green → You Win
+ > 🔴 Red → You Lose
+ > 🔵 Cyan → Draw
+4. Scores update automatically.
+
+⚙️ Game Rules
+
+**Player	        Computer	        Result**
+  Rock	          Scissors	        Win
+  Rock	          Paper	            Lose
+  Paper	          Rock	            Win
+  Paper	          Scissors	        Lose
+  Scissors	      Paper            	Win
+  Scissors	      Rock	            Lose
+
+  *Same choice → Draw*
+
+🧠 Game Logic Overview
+
+1. User Click Detection
+ > Each choice listens for click events.
+ >>> choice.addEventListener("click", ...)
+2. Computer Choice
+ > Generated randomly using:
+ >>> Math.floor(Math.random() * 3);
+3. Winner Decision
+ > Game logic compares both choices and decides winner.
+4. Score Update
+ > Scores are updated dynamically using DOM manipulation.
+
+🎨 UI Design
+ 
+ > Circular buttons
+ > Hover effects
+ > Centered layout
+ > Large score display
+ > Message box with colors
+
+*Styled using style.css.*
+
+🚀 Future Improvements (Optional)
+
+You can enhance this project by adding:
+ > Sound effects 🔊
+ > Restart button 🔄
+ > Game history 📜
+ > Dark mode 🌙
+ > Difficulty levels 🎯
+ > Mobile optimization 📱
+
+👨‍💻 Author
+
+Name: Shivam Kumar
+Project Type: Beginner Web Project
+Purpose: Learning JavaScript & DOM
+
+📜 License
+
+This project is free to use for learning and educational purposes.
